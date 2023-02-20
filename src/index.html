@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luca Merighi">
+
+    <link href="/dist/output.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+    <title>Card de Produto</title>
+</head>
+<body class="
+    flex items-center justify-center h-screen bg-light-purple">
+    <main class="
+        flex flex-col gap-6
+        md:flex-row md:items-center">
+        <figure>
+            <img 
+            src="./couch.png" 
+            alt="Imagem do Sofá Margot II - Rosé">
+        </figure>
+
+        <div class="flex flex-col gap-2 px-20 md:px-0">
+            <span class="text-text-purple/75 text-sm uppercase">
+                Código: 42404
+            </span>
+            <h3 class="text-text-purple text-2xl font-bold font-serif">
+                Sofá Margot II - Rosé
+            </h3>
+            <p class="text-text-purple/90 text-xl">
+                R$ 4.000
+            </p>
+            <button class="
+                w-fit py-2 px-4
+                text-text-purple uppercase
+                border border-text-purple
+                rounded-full transition-all
+                hover:bg-text-purple
+                hover:text-light-purple
+                hover:translate-y-1
+                focus:outline-none
+                focus:bg-text-purple
+                focus:text-light-purple
+                focus:translate-y-1">
+                    Adicionar À Cesta
+            </button>
+        </div>
+    </main>
+</body>
+</html>
